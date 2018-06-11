@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class Time_Contr : MonoBehaviour
+public class Time_Ctrlr : MonoBehaviour
 {
-    public static Time_Contr ciop;
+    public static Time_Ctrlr ciop;
 
     public delegate void HourComing(int hour);
     public static event HourComing HourCame;
@@ -69,9 +69,11 @@ public class Time_Contr : MonoBehaviour
     public float milisecond_time = 0;
 
     [SerializeField]
-    float timeSpeed = 1;
+    float timeCountingSpeed = 1;
+    [SerializeField]
+    float timeScale = 1;
 
-    void Awake()
+    private void Awake()
     {
         if (!ciop)
         {
@@ -84,14 +86,19 @@ public class Time_Contr : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    private void Update()
+    {
+        Time.timeScale = timeScale;
+    }
+
+    private void FixedUpdate()
     {
         CountTime();
     }
 
-    void CountTime()
+    private void CountTime()
     {
-        milisecond_time += timeSpeed * Time.fixedDeltaTime;
+        milisecond_time += timeCountingSpeed * Time.fixedDeltaTime;
 
         if (milisecond_time >= 1)
         {

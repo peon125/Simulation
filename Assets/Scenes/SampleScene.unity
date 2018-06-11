@@ -204,11 +204,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0742dc86422447046a16c84065a513e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 0}
+  stance: 0
+  house: {fileID: 1743092333}
   job:
-    person: {fileID: 0}
-    place: {fileID: 0}
-    workingDays: 
+    person: {fileID: 142196399}
+    workplace: {fileID: 1877439053}
+    workingDays: 0100000002000000030000000400000005000000
     workSince: 08000000
     workTo: 10000000
     salary: 0
@@ -1144,6 +1145,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 353280348}
+  - component: {fileID: 353280349}
   m_Layer: 0
   m_Name: 0 (4)
   m_TagString: Untagged
@@ -1167,6 +1169,17 @@ Transform:
   m_Father: {fileID: 276005716}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353280349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353280347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f23d3434eb24c4dba33c459e3d324e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &391746696
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,11 +1394,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0742dc86422447046a16c84065a513e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 0}
+  stance: 0
+  house: {fileID: 1125431962}
   job:
-    person: {fileID: 0}
-    place: {fileID: 0}
-    workingDays: 
+    person: {fileID: 473661888}
+    workplace: {fileID: 281853866}
+    workingDays: 0100000002000000030000000400000005000000
     workSince: 08000000
     workTo: 10000000
     salary: 0
@@ -1594,11 +1608,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0742dc86422447046a16c84065a513e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 0}
+  stance: 0
+  house: {fileID: 1912548483}
   job:
-    person: {fileID: 0}
-    place: {fileID: 0}
-    workingDays: 
+    person: {fileID: 502730678}
+    workplace: {fileID: 66469398}
+    workingDays: 0100000002000000030000000400000005000000
     workSince: 08000000
     workTo: 10000000
     salary: 0
@@ -2486,6 +2501,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1125431961}
+  - component: {fileID: 1125431962}
   m_Layer: 0
   m_Name: 0 (1)
   m_TagString: Untagged
@@ -2509,6 +2525,17 @@ Transform:
   m_Father: {fileID: 276005716}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1125431962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1125431960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f23d3434eb24c4dba33c459e3d324e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1156442196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,11 +2982,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0742dc86422447046a16c84065a513e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 0}
+  stance: 0
+  house: {fileID: 353280349}
   job:
-    person: {fileID: 0}
-    place: {fileID: 0}
-    workingDays: 
+    person: {fileID: 1378191070}
+    workplace: {fileID: 220622444}
+    workingDays: 0100000002000000030000000400000005000000
     workSince: 08000000
     workTo: 10000000
     salary: 0
@@ -3407,6 +3435,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1580454395}
+  - component: {fileID: 1580454396}
   m_Layer: 0
   m_Name: 0 (3)
   m_TagString: Untagged
@@ -3430,6 +3459,17 @@ Transform:
   m_Father: {fileID: 276005716}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580454396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580454394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f23d3434eb24c4dba33c459e3d324e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711631060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,6 +3563,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1743092332}
+  - component: {fileID: 1743092333}
   m_Layer: 0
   m_Name: 0 (2)
   m_TagString: Untagged
@@ -3546,6 +3587,17 @@ Transform:
   m_Father: {fileID: 276005716}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1743092333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1743092331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f23d3434eb24c4dba33c459e3d324e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805090964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4100,6 +4152,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1912548482}
+  - component: {fileID: 1912548483}
   m_Layer: 0
   m_Name: 0
   m_TagString: Untagged
@@ -4123,6 +4176,17 @@ Transform:
   m_Father: {fileID: 276005716}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1912548483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912548481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f23d3434eb24c4dba33c459e3d324e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1991437973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,11 +4316,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0742dc86422447046a16c84065a513e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 0}
+  stance: 0
+  house: {fileID: 1580454396}
   job:
-    person: {fileID: 0}
-    place: {fileID: 0}
-    workingDays: 
+    person: {fileID: 1997192488}
+    workplace: {fileID: 719514410}
+    workingDays: 0100000002000000030000000400000005000000
     workSince: 08000000
     workTo: 10000000
     salary: 0
@@ -4451,11 +4516,12 @@ MonoBehaviour:
   year_time: 1814
   month_time: 1
   day_time: 1
-  hour_time: 0
-  minute_time: 0
+  hour_time: 7
+  minute_time: 59
   second_time: 0
   milisecond_time: 0
-  timeSpeed: 1
+  timeCountingSpeed: 10
+  timeScale: 1
 --- !u!4 &2051467655
 Transform:
   m_ObjectHideFlags: 0
